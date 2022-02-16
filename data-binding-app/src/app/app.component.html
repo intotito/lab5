@@ -1,0 +1,11 @@
+<img (dblclick)="star_dblclick()" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg"
+   />
+<br>
+<h1 [hidden]="is_hidden">Look at the Star</h1>
+<Button (click)="button_pressed()">Press Me</Button>
+<Button (click)="reset_count()">Reset</Button>
+<br>
+<h3>The number of times button has been pressed is: {{count}}</h3>
+<app-listcomponent></app-listcomponent>
+<br>
+{{getName()}}
